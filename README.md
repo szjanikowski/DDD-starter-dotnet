@@ -62,6 +62,9 @@ This project is under development so we encourage you to follow:
 
 ## Table of contents
 
+1. [Plan onboardingu dla nowych developerów](ONBOARDING.md)
+2. [Diagramy architektury](ARCHITECTURE.md)
+
 ### Screaming architecture
 
 To create this solution we used an architectural approach called *screaming architecture*. This means that the structure of the solution "screams" about the business domain and architectural choices. Bounded Contexts are mapped to solution folders, application architecture layers are in separate projects, namespaces hierarchy follows business divisions.
