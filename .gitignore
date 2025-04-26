@@ -40,3 +40,5 @@ msbuild.wrn
 .tmp/
 .nuke/
 Build/Nuke/Artifacts/
+
+java-sales
