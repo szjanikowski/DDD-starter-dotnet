@@ -344,4 +344,40 @@ classDiagram
         +CalculatePrices
         +Order.Factory
     }
-    ```
+```
+
+```mermaid
+sequenceDiagram
+    participant Client as Klient hurtowy
+    participant Controller as OrdersPlacementController
+    participant Handler as PlaceOrderHandler
+    participant Repo as Order.Repository
+    participant Crud as SalesCrudOperations
+    participant Outbox as OrderEventsOutbox
+    participant Clock as Clock
+
+    Client->>Controller: PUT /rest/wholesale-ordering/orders/{id}/placement
+    Controller->>Handler: Handle(PlaceOrder)
+    
+    Handler->>Handler: CreateDomainModelFrom(command)
+    Note over Handler: Tworzy OrderId
+    
+    Handler->>Repo: GetBy(orderId)
+    Repo-->>Handler: order
+    
+    Handler->>Clock: Now()
+    Clock-->>Handler: now
+    
+    Handler->>order: Place(now)
+    
+    Handler->>Repo: Save(order)
+    
+    Handler->>Crud: Read<OrderHeader>(order.Id.Value)
+    Crud-->>Handler: orderHeader
+    
+    Handler->>Handler: CreateEventFrom(order, now)
+    Handler->>Outbox: Add(orderPlaced)
+    
+    Handler-->>Controller: OrderPlaced
+    Controller-->>Client: 204 No Content
+```
