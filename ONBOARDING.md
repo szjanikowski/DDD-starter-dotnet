@@ -4,13 +4,40 @@
 
 Projekt jest podzielony na następujące główne moduły:
 
-- **Sales** - moduł obsługujący procesy sprzedażowe
-- **Search** - wyszukiwarka produktów
-- **RiskManagement** - zarządzanie ryzykiem
-- **ProductsDelivery** - dostawy produktów
-- **Payments** - obsługa płatności
-- **Contacts** - zarządzanie kontaktami
-- **TechnicalStuff** - wspólne komponenty techniczne
+### Sales - moduł obsługujący procesy sprzedażowe
+- **OnlineOrdering** - proces składania zamówień przez klientów detalicznych
+  - `PriceCartHandler` - wyliczanie cen dla koszyka
+  - `PlaceOrderHandler` - składanie zamówienia online
+- **WholesaleOrdering** - proces składania zamówień hurtowych
+  - `CreateOrderHandler` - tworzenie nowego zamówienia
+  - `AddToOrderHandler` - dodawanie produktów do zamówienia
+  - `GetQuickQuoteHandler` - szybkie wyliczenie ceny
+  - `GetOfferHandler` - pobieranie oferty
+  - `ConfirmOfferHandler` - potwierdzanie oferty
+  - `PlaceOrderHandler` - składanie zamówienia hurtowego
+- **Fulfillment** - realizacja zamówień
+  - `OrderPlacedHandler` - obsługa złożonych zamówień
+
+### Search - wyszukiwarka produktów
+- Moduł odpowiedzialny za wyszukiwanie i filtrowanie produktów
+
+### RiskManagement - zarządzanie ryzykiem
+- `GetRiskScoreHandler` - wyliczanie oceny ryzyka
+- `GetMaxAmountHandler` - określanie maksymalnej kwoty zamówienia
+
+### ProductsDelivery - dostawy produktów
+- `RequestDeliveryHandler` - obsługa żądań dostawy
+
+### Payments - obsługa płatności
+- `RequestPaymentHandler` - obsługa żądań płatności
+
+### Contacts - zarządzanie kontaktami
+- Moduł odpowiedzialny za zarządzanie danymi kontaktowymi klientów
+
+### TechnicalStuff - wspólne komponenty techniczne
+- Podstawowe interfejsy i klasy pomocnicze
+- Implementacje wzorców projektowych
+- Narzędzia do obsługi procesów biznesowych
 
 ## 2. Kolejność Zapoznawania się z Modułami
 

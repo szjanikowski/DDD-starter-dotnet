@@ -3,12 +3,7 @@ workspace {
         # Definicje osób
         wholesaleClient = person "Klient hurtowy" "Klient korzystający z systemu w trybie hurtowym"
         onlineClient = person "Klient online" "Klient korzystający z systemu w trybie online"
-        administrator = person "Administrator" "Administrator systemu"
         
-        # Definicje systemów zewnętrznych
-        paymentsSystem = softwareSystem "System płatności" "Zewnętrzny system obsługi płatności"
-        deliverySystem = softwareSystem "System dostaw" "Zewnętrzny system zarządzania dostawami"
-        searchSystem = softwareSystem "System wyszukiwania" "Zewnętrzny system wyszukiwania produktów"
         
         # Definicja głównego systemu
         dddStarter = softwareSystem "DDD Starter for .NET" "System DDD Starter for .NET" {
@@ -34,15 +29,9 @@ workspace {
         # Relacje między osobami a systemem
         wholesaleClient -> dddStarter "Przegląda i składa zamówienia"
         onlineClient -> dddStarter "Przegląda produkty i składa zamówienia"
-        administrator -> dddStarter "Zarządza systemem"
-        
-        # Relacje między systemami
-        dddStarter -> paymentsSystem "Przetwarza płatności"
-        dddStarter -> deliverySystem "Zarządza dostawami"
-        dddStarter -> searchSystem "Wyszukuje produkty"
+
         
         # Relacje między komponentami w monolicie
-        sales -> contacts "Używa"
         sales -> payments "Używa"
         sales -> productsDelivery "Używa"
         sales -> riskManagement "Używa"
