@@ -1,3 +1,5 @@
+## Online ordering - class diagram
+
 ```mermaid
 classDiagram
     class PlaceOrderHandler {
@@ -108,6 +110,8 @@ classDiagram
     OrderHeader ..> InvoicingDetails : contains
 ```
 
+## Wholesale ordering - class diagram
+
 ```mermaid
 classDiagram
     class PlaceOrderHandler {
@@ -176,7 +180,7 @@ classDiagram
     Order ..> OrderPlaced : creates
 ```
 
-
+## Online + Wholsale ordering class diagram
 
 
 ```mermaid
@@ -345,6 +349,7 @@ classDiagram
         +Order.Factory
     }
 ```
+## Wholesale ordering - sequence diagram
 
 ```mermaid
 sequenceDiagram
@@ -380,4 +385,48 @@ sequenceDiagram
     
     Handler-->>Controller: OrderPlaced
     Controller-->>Client: 204 No Content
+```
+
+## Online ordering - sequence diagram
+
+```mermaid
+
+sequenceDiagram
+    participant Client as Klient detaliczny
+    participant Controller as OrdersController
+    participant Handler as PlaceOrderHandler
+    participant Prices as CalculatePrices
+    participant Factory as Order.Factory
+    participant Repo as Order.Repository
+    participant Crud as SalesCrudOperations
+    participant Outbox as OrderEventsOutbox
+    participant Clock as Clock
+
+    Client->>Controller: POST /rest/online-ordering/orders
+    Controller->>Handler: Handle(PlaceOrder)
+    
+    Handler->>Handler: CreateDomainModelFrom(command)
+    Note over Handler: Tworzy ClientId i Offer
+    
+    Handler->>Prices: For(clientId, SalesChannel.OnlineSale, offer.ProductAmounts, offer.Currency)
+    Prices-->>Handler: currentOffer
+    
+    Handler->>Handler: if (!offer.Equals(currentOffer)) throw new DomainError()
+    
+    Handler->>Factory: ImmediatelyPlacedBasedOn(offer)
+    Factory-->>Handler: order
+    
+    Handler->>Handler: Tworzy orderHeader z InvoicingDetails
+    
+    Handler->>Repo: Save(order)
+    Handler->>Crud: Create(orderHeader)
+    
+    Handler->>Clock: Now()
+    Clock-->>Handler: now
+    
+    Handler->>Handler: CreateEventFrom(clientId, order, now)
+    Handler->>Outbox: Add(orderPlaced)
+    
+    Handler-->>Controller: OrderPlaced
+    Controller-->>Client: 201 Created
 ```
