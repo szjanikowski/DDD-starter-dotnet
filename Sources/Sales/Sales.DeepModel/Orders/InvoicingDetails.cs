@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using P3Model.Annotations.Domain.DDD;
+using Noesis.P3.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Sales.Orders;
 

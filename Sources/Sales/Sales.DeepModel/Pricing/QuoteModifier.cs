@@ -1,5 +1,5 @@
 using System.Diagnostics.Contracts;
-using P3Model.Annotations.Domain.DDD;
+using Noesis.P3.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Sales.Pricing;
 

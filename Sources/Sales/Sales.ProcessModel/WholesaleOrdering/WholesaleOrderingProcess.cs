@@ -1,4 +1,4 @@
-using P3Model.Annotations.Domain;
+using Noesis.P3.Annotations.Domain;
 
 namespace MyCompany.ECommerce.Sales.WholesaleOrdering;
 

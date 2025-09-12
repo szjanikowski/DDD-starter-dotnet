@@ -7,8 +7,8 @@ using MyCompany.ECommerce.Sales;
 using MyCompany.ECommerce.TechnicalStuff.Api.Versioning;
 using MyCompany.ECommerce.TechnicalStuff.Json.Json;
 using MyCompany.ECommerce.TechnicalStuff.Persistence;
-using P3Model.Annotations.Technology;
-using P3Model.Annotations.Technology.CleanArchitecture;
+using Noesis.P3.Annotations.Technology;
+using Noesis.P3.Annotations.Technology.CleanArchitecture;
 
 [assembly: DeployableUnit("ecommerce-monolith")]
 [assembly: Tier("Application")]

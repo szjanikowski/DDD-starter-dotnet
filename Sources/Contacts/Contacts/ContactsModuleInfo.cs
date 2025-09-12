@@ -1,5 +1,5 @@
-using P3Model.Annotations.Domain;
-using P3Model.Annotations.People;
+using Noesis.P3.Annotations.Domain;
+using Noesis.P3.Annotations.People;
 
 [assembly: BusinessOwner("Client relations department")]
 [assembly: DevelopmentOwner("Supporting team")]

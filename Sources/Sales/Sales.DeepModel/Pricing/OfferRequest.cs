@@ -3,7 +3,7 @@ using MyCompany.ECommerce.Sales.Clients;
 using MyCompany.ECommerce.Sales.Products;
 using MyCompany.ECommerce.Sales.SalesChannels;
 using MyCompany.ECommerce.TechnicalStuff;
-using P3Model.Annotations.Domain.DDD;
+using Noesis.P3.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Sales.Pricing;
 

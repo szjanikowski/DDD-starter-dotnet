@@ -3,12 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using MyCompany.ECommerce.Contacts.Companies;
 using MyCompany.ECommerce.Contacts.Groups;
 using MyCompany.ECommerce.Contacts.Tags;
-using P3Model.Annotations.Technology;
+using Noesis.P3.Annotations.Technology;
 
 namespace MyCompany.ECommerce.Contacts.Database;
 
 [UsedImplicitly(ImplicitUseTargetFlags.Members)]
-[Database("Contacts", ClusterName = "Postgres")]
+[Database("Contacts", ServerName = "Postgres")]
 public class ContactsDbContext : DbContext
 {
     public DbSet<Company> Companies { get; set; }

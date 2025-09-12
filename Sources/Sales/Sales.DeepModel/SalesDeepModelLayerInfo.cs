@@ -1,8 +1,7 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using P3Model.Annotations.Domain;
-using P3Model.Annotations.Domain.DDD;
-using P3Model.Annotations.Technology.CleanArchitecture;
+using Noesis.P3.Annotations.Domain;
+using Noesis.P3.Annotations.Technology.CleanArchitecture;
 
 [assembly: InternalsVisibleTo("MyCompany.ECommerce.Monolith.Startup")]
 [assembly: InternalsVisibleTo("MyCompany.ECommerce.Sales.IntegrationTests")]

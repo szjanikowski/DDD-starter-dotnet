@@ -1,9 +1,9 @@
 using JetBrains.Annotations;
-using P3Model.Annotations.Technology;
+using Noesis.P3.Annotations.Technology;
 
 namespace MyCompany.ECommerce.Search;
 
-[Database("Search", ClusterName = "Elastic")]
+[Database("Search", ServerName = "Elastic")]
 [UsedImplicitly]
 internal class SearchDb
 {

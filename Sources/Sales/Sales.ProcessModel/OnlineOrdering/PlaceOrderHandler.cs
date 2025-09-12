@@ -7,8 +7,8 @@ using MyCompany.ECommerce.Sales.SalesChannels;
 using MyCompany.ECommerce.Sales.Time;
 using MyCompany.ECommerce.TechnicalStuff;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using P3Model.Annotations.Domain;
-using P3Model.Annotations.People;
+using Noesis.P3.Annotations.Domain;
+using Noesis.P3.Annotations.People;
 
 namespace MyCompany.ECommerce.Sales.OnlineOrdering;
 

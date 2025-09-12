@@ -1,7 +1,7 @@
 using MyCompany.ECommerce.Sales.Pricing.Discounts;
 using MyCompany.ECommerce.Sales.Pricing.SpecialOffers;
 using MyCompany.ECommerce.Sales.SalesChannels;
-using P3Model.Annotations.Domain.DDD;
+using Noesis.P3.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Sales.Pricing;
 

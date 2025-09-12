@@ -2,7 +2,7 @@ using System.Globalization;
 using MyCompany.ECommerce.Sales.Commons;
 using MyCompany.ECommerce.Sales.Pricing;
 using MyCompany.ECommerce.TechnicalStuff;
-using P3Model.Annotations.Domain.DDD;
+using Noesis.P3.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Sales.ExchangeRates;
 

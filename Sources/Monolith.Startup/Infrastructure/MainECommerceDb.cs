@@ -1,10 +1,10 @@
 using MyCompany.ECommerce.TechnicalStuff.Persistence;
 using MyCompany.ECommerce.TechnicalStuff.Postgres;
-using P3Model.Annotations.Technology;
+using Noesis.P3.Annotations.Technology;
 
 namespace MyCompany.ECommerce.Infrastructure;
 
-[Database("Main", ClusterName = "Postgres")]
+[Database("Main", ServerName = "Postgres")]
 public class MainECommerceDb : PostgresTransactionProvider, MainDb
 {
     public MainECommerceDb(string connectionString) : base(connectionString) { }

@@ -11,6 +11,7 @@
     </PropertyGroup>
 
     <ItemGroup>        
+        <PackageReference Include="JetBrains.Annotations" Version="2025.2.2" />        
         <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.5" />        
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5">
           <PrivateAssets>all</PrivateAssets>

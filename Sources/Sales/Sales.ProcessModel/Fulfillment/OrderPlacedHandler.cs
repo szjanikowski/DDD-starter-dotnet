@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using MyCompany.ECommerce.Sales.OnlineOrdering;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using P3Model.Annotations.Domain;
+using Noesis.P3.Annotations.Domain;
 
 namespace MyCompany.ECommerce.Sales.Fulfillment;
 
@@ -18,13 +18,13 @@ public class OrderPlacedHandler : DomainEventHandler<OnlineOrderPlaced>, DomainE
         _ => throw new ArgumentOutOfRangeException(nameof(message), message, null)
     };
 
-    [UseCase(nameof(OnlineOrderPlaced), Process = FulfillmentProcess.Name)]
+    [EntryPoint(nameof(OnlineOrderPlaced), Process = FulfillmentProcess.Name)]
     public Task Handle(OnlineOrderPlaced domainEvent)
     {
         throw new NotImplementedException();
     }
 
-    [UseCase(nameof(WholesaleOrderPlaced), Process = FulfillmentProcess.Name)]
+    [EntryPoint(nameof(WholesaleOrderPlaced), Process = FulfillmentProcess.Name)]
     public Task Handle(WholesaleOrderPlaced domainEvent)
     {
         throw new NotImplementedException();

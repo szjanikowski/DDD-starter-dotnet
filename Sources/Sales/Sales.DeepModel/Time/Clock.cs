@@ -1,9 +1,7 @@
-using P3Model.Annotations.Domain;
-using P3Model.Annotations.Domain.DDD;
+using Noesis.P3.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Sales.Time;
 
-[ExcludeFromDomainGlossary]
 [DddDomainService]
 public interface Clock
 {

@@ -1,13 +1,13 @@
 using JetBrains.Annotations;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using P3Model.Annotations.Domain;
+using Noesis.P3.Annotations.Domain;
 
 namespace MyCompany.ECommerce.RiskManagement.Publication;
 
 [UsedImplicitly]
 public class GetRiskScoreHandler : QueryHandler<GetRiskScore, decimal>
 {
-    [UseCase(nameof(GetRiskScore), Process = RiskScorePublicationProcess.Name)]
+    [EntryPoint(nameof(GetRiskScore), Process = RiskScorePublicationProcess.Name)]
     public Task<decimal> Handle(GetRiskScore query)
     {
         throw new NotImplementedException();

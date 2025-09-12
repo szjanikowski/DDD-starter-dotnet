@@ -1,7 +1,7 @@
 using System.Reflection;
 using JetBrains.Annotations;
-using P3Model.Annotations.Domain;
-using P3Model.Annotations.Technology.CleanArchitecture;
+using Noesis.P3.Annotations.Domain;
+using Noesis.P3.Annotations.Technology.CleanArchitecture;
 
 [assembly: UseCasesLayer]
 [assembly: DomainModel]

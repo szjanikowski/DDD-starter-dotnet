@@ -1,13 +1,13 @@
 using JetBrains.Annotations;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using P3Model.Annotations.Domain;
+using Noesis.P3.Annotations.Domain;
 
 namespace MyCompany.ECommerce.ProductsDelivery.Requesting;
 
 [UsedImplicitly]
 public class RequestDeliveryHandler : CommandHandler<RequestDelivery>
 {
-    [UseCase(nameof(RequestDelivery), Process = ProductsDeliveryProcess.Name)]
+    [EntryPoint(nameof(RequestDelivery), Process = ProductsDeliveryProcess.Name)]
     public Task Handle(RequestDelivery command)
     {
         throw new NotImplementedException();

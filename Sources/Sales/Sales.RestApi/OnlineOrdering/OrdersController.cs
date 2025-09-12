@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using PlaceOrder = MyCompany.ECommerce.Sales.OnlineOrdering.PlaceOrder;
 
 namespace MyCompany.ECommerce.Sales.OnlineOrdering;
 

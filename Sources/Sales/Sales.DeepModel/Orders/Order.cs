@@ -3,8 +3,8 @@ using MyCompany.ECommerce.Sales.Orders.PriceChanges;
 using MyCompany.ECommerce.Sales.Pricing;
 using MyCompany.ECommerce.Sales.Products;
 using MyCompany.ECommerce.TechnicalStuff;
-using P3Model.Annotations;
-using P3Model.Annotations.Domain.DDD;
+using Noesis.P3.Annotations;
+using Noesis.P3.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Sales.Orders;
 

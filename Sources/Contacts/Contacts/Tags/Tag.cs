@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 using MyCompany.ECommerce.Contacts.Companies;
 using MyCompany.ECommerce.Contacts.Groups;
 using MyCompany.ECommerce.TechnicalStuff.Crud;
-using P3Model.Annotations.Domain.DDD;
+using Noesis.P3.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Contacts.Tags;
 
