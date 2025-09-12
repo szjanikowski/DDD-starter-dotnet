@@ -2,7 +2,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Text.Json.Serialization;
 using MyCompany.ECommerce.Sales.Commons;
 using MyCompany.ECommerce.TechnicalStuff;
-using Noesis.P3.Annotations.Domain.DDD;
+using NoesisVision.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Sales.Orders;
 

@@ -3,7 +3,7 @@ using MyCompany.ECommerce.Sales.Orders;
 using MyCompany.ECommerce.Sales.Products;
 using MyCompany.ECommerce.TechnicalStuff;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using Noesis.P3.Annotations.People;
+using NoesisVision.Annotations.People;
 
 namespace MyCompany.ECommerce.Sales.WholesaleOrdering;
 

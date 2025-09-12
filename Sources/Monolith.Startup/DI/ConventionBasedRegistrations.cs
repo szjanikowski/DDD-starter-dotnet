@@ -1,6 +1,6 @@
 using System.Reflection;
-using Noesis.P3.Annotations.Domain;
-using Noesis.P3.Annotations.Domain.DDD;
+using NoesisVision.Annotations.Domain;
+using NoesisVision.Annotations.Domain.DDD;
 using Scrutor;
 
 namespace MyCompany.ECommerce.DI;

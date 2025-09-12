@@ -14,6 +14,7 @@
         <PackageReference Include="BDD-toolkit-dotnet" Version="2.4.0" />
         <PackageReference Include="JetBrains.Annotations" Version="2025.2.2" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+        <PackageReference Include="NoesisVision.Annotations" Version="0.1.0" />
         <PackageReference Include="xunit" Version="2.8.0" />
         <PackageReference Include="xunit.runner.visualstudio" Version="2.8.0">
           <PrivateAssets>all</PrivateAssets>

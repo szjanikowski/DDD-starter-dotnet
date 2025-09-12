@@ -19,7 +19,7 @@
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
       <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-      <PackageReference Include="P3Model.Annotations" Version="0.5.1" />
+      <PackageReference Include="NoesisVision.Annotations" Version="0.1.0" />
     </ItemGroup>
 
 </Project>

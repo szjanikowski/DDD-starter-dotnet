@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using MyCompany.ECommerce.TechnicalStuff.Crud;
 using Newtonsoft.Json;
-using Noesis.P3.Annotations.Domain.DDD;
+using NoesisVision.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Sales.Orders;
 

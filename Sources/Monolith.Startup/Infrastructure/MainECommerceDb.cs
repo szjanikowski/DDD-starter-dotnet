@@ -1,6 +1,6 @@
 using MyCompany.ECommerce.TechnicalStuff.Persistence;
 using MyCompany.ECommerce.TechnicalStuff.Postgres;
-using Noesis.P3.Annotations.Technology;
+using NoesisVision.Annotations.Technology;
 
 namespace MyCompany.ECommerce.Infrastructure;
 

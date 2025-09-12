@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 using MyCompany.ECommerce.Contacts.Groups;
-using Noesis.P3.Annotations.Domain.DDD;
+using NoesisVision.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Contacts.Companies;
 

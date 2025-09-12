@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using MyCompany.ECommerce.Sales.Orders;
 using MyCompany.ECommerce.TechnicalStuff.Ef.ValueConverters;
 using MyCompany.ECommerce.TechnicalStuff.ValueObjects;
-using Noesis.P3.Annotations.Technology;
+using NoesisVision.Annotations.Technology;
 
 namespace MyCompany.ECommerce.Sales.Database.Sql.EF;
 

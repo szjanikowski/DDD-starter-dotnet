@@ -1,3 +1,3 @@
-using Noesis.P3.Annotations;
+using NoesisVision.Annotations;
 
 [assembly: ExcludeFromDocs]

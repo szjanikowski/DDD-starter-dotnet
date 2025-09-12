@@ -26,8 +26,8 @@
       <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="8.0.0" />
       <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0" />
       <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+      <PackageReference Include="NoesisVision.Annotations" Version="0.1.0" />
       <PackageReference Include="Npgsql" Version="8.0.3" />
-      <PackageReference Include="P3Model.Annotations" Version="0.5.1" />
     </ItemGroup>
 
     <ItemGroup>

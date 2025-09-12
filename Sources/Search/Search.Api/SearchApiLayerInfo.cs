@@ -1,7 +1,7 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using Noesis.P3.Annotations.Domain;
-using Noesis.P3.Annotations.Technology;
+using NoesisVision.Annotations.Domain;
+using NoesisVision.Annotations.Technology;
 
 [assembly: InternalsVisibleTo("MyCompany.ECommerce.Search.Startup")]
 [assembly: Layer("Api")]

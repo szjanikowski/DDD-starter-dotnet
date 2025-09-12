@@ -9,7 +9,7 @@ using MyCompany.ECommerce.Sales.SalesChannels;
 using MyCompany.ECommerce.Sales.Time;
 using MyCompany.ECommerce.TechnicalStuff;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using Noesis.P3.Annotations.People;
+using NoesisVision.Annotations.People;
 
 namespace MyCompany.ECommerce.Sales.WholesaleOrdering;
 

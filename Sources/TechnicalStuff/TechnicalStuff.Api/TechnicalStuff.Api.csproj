@@ -12,8 +12,8 @@
     <ItemGroup>
       <PackageReference Include="JetBrains.Annotations" Version="2025.2.2" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+      <PackageReference Include="NoesisVision.Annotations" Version="0.1.0" />
       <PackageReference Include="NSwag.AspNetCore" Version="14.0.7" />
-      <PackageReference Include="P3Model.Annotations" Version="0.5.1" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,5 +1,5 @@
 using System.Reflection;
-using Noesis.P3.Annotations.Technology.CleanArchitecture;
+using NoesisVision.Annotations.Technology.CleanArchitecture;
 
 [assembly: AdaptersLayer]
 

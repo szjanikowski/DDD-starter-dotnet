@@ -1,5 +1,5 @@
-using Noesis.P3.Annotations.Domain;
-using Noesis.P3.Annotations.People;
+using NoesisVision.Annotations.Domain;
+using NoesisVision.Annotations.People;
 
 [assembly: BusinessOwner("Client relations department")]
 [assembly: DevelopmentOwner("Supporting team")]

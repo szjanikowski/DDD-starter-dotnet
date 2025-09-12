@@ -1,7 +1,7 @@
 using MyCompany.ECommerce.Search;
 using MyCompany.ECommerce.Search.Products;
-using Noesis.P3.Annotations.Technology;
-using Noesis.P3.Annotations.Technology.CleanArchitecture;
+using NoesisVision.Annotations.Technology;
+using NoesisVision.Annotations.Technology.CleanArchitecture;
 
 [assembly: DeployableUnit("ecommerce-search")]
 [assembly: Tier("Application")]

@@ -5,7 +5,7 @@ using MyCompany.ECommerce.Sales.ExchangeRates;
 using MyCompany.ECommerce.Sales.Pricing.PriceLists;
 using MyCompany.ECommerce.Sales.Products;
 using MyCompany.ECommerce.Sales.SalesChannels;
-using Noesis.P3.Annotations.Domain.DDD;
+using NoesisVision.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Sales.Pricing;
 

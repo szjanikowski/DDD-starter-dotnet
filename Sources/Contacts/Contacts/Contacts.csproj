@@ -19,8 +19,8 @@
     <ItemGroup>
       <PackageReference Include="JetBrains.Annotations" Version="2025.2.2" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+      <PackageReference Include="NoesisVision.Annotations" Version="0.1.0" />
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
-      <PackageReference Include="P3Model.Annotations" Version="0.5.1" />      
     </ItemGroup>
 
 </Project>

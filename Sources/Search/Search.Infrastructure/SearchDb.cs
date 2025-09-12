@@ -1,5 +1,5 @@
 using JetBrains.Annotations;
-using Noesis.P3.Annotations.Technology;
+using NoesisVision.Annotations.Technology;
 
 namespace MyCompany.ECommerce.Search;
 

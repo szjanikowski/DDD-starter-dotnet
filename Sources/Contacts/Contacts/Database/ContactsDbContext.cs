@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using MyCompany.ECommerce.Contacts.Companies;
 using MyCompany.ECommerce.Contacts.Groups;
 using MyCompany.ECommerce.Contacts.Tags;
-using Noesis.P3.Annotations.Technology;
+using NoesisVision.Annotations.Technology;
 
 namespace MyCompany.ECommerce.Contacts.Database;
 

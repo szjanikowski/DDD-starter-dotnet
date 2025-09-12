@@ -1,6 +1,6 @@
 using System.Reflection;
 using JetBrains.Annotations;
-using Noesis.P3.Annotations.Technology.CleanArchitecture;
+using NoesisVision.Annotations.Technology.CleanArchitecture;
 
 [assembly: AdaptersLayer]
 

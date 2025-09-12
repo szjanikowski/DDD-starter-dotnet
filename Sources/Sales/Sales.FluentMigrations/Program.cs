@@ -1,7 +1,7 @@
 ﻿using FluentMigrator.Runner;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Noesis.P3.Annotations;
+using NoesisVision.Annotations;
 
 [assembly: ExcludeFromDocs]
 

@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 using MyCompany.ECommerce.Sales.Orders;
 using MyCompany.ECommerce.Sales.Time;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using Noesis.P3.Annotations.People;
+using NoesisVision.Annotations.People;
 
 namespace MyCompany.ECommerce.Sales.WholesaleOrdering;
 

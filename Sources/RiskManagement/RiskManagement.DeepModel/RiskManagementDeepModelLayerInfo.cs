@@ -1,7 +1,7 @@
 using System.Reflection;
 using JetBrains.Annotations;
-using Noesis.P3.Annotations.Domain;
-using Noesis.P3.Annotations.Technology.CleanArchitecture;
+using NoesisVision.Annotations.Domain;
+using NoesisVision.Annotations.Technology.CleanArchitecture;
 
 [assembly: EntitiesLayer]
 [assembly: DomainModel]

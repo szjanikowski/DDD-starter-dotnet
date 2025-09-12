@@ -1,7 +1,7 @@
 using System.Collections.Immutable;
 using MyCompany.ECommerce.Sales.Orders;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using Noesis.P3.Annotations.Domain;
+using NoesisVision.Annotations.Domain;
 
 namespace MyCompany.ECommerce.Sales.OnlineOrdering;
 

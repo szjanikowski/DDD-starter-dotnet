@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using MyCompany.ECommerce.Sales.OnlineOrdering;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using Noesis.P3.Annotations.Domain;
+using NoesisVision.Annotations.Domain;
 
 namespace MyCompany.ECommerce.Sales.Fulfillment;
 

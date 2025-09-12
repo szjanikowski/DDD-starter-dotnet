@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using MyCompany.ECommerce.Contacts.Companies;
 using MyCompany.ECommerce.TechnicalStuff.Crud;
 using Newtonsoft.Json;
-using Noesis.P3.Annotations.Domain.DDD;
+using NoesisVision.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Contacts.Groups;
 
