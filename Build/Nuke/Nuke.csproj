@@ -22,7 +22,7 @@
     <PackageReference Include="Npgsql" Version="8.0.3" />
     <PackageReference Include="Nuke.Common" Version="8.0.0" />
     <PackageDownload Include="GitVersion.Tool" Version="[5.1.1]" />
-    <PackageReference Include="P3Model.Annotations" Version="0.4.0" />
+    <PackageReference Include="P3Model.Annotations" Version="0.5.1" />
     <PackageReference Include="Polly" Version="8.4.0" />
   </ItemGroup>
 
