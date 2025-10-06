@@ -7,14 +7,14 @@
   - Create Loyalty.RestApi project with ASP.NET Core controllers
   - _Requirements: All requirements depend on proper project structure_
 
-- [ ] 2. Implement core domain model and value objects
-  - [ ] 2.1 Create ClientId integration and basic value objects
+- [x] 2. Implement core domain model and value objects
+  - [x] 2.1 Create ClientId integration and basic value objects
     - Reference existing ClientId from Sales.DeepModel
     - Implement PointTransaction value object with transaction types and validation
     - Implement LoyaltyConfiguration value object with business rules
     - _Requirements: 1.1, 1.2, 4.1, 4.2, 4.3_
   
-  - [ ] 2.2 Implement LoyaltyAccount aggregate root
+  - [x] 2.2 Implement LoyaltyAccount aggregate root
     - Create LoyaltyAccount aggregate with point balance management
     - Implement AwardPoints method with business rule validation
     - Implement RedeemPoints method with insufficient balance checks
@@ -27,33 +27,33 @@
     - Test expiration logic and FIFO point usage
     - _Requirements: 1.1, 3.3, 5.4_
 
-- [ ] 3. Create repository interfaces and domain services
-  - [ ] 3.1 Define repository contracts in DeepModel
+- [x] 3. Create repository interfaces and domain services
+  - [x] 3.1 Define repository contracts in DeepModel
     - Create LoyaltyAccountRepository interface with async methods
     - Create LoyaltyConfigurationRepository interface for admin settings
     - Add domain service interfaces for point calculation and expiration
     - _Requirements: 2.1, 4.1, 5.1_
   
-  - [ ] 3.2 Implement domain services for business logic
+  - [x] 3.2 Implement domain services for business logic
     - Create PointCalculationService with configurable ratios
     - Create ExpirationPolicyService with FIFO redemption logic
     - Add validation services for configuration changes
     - _Requirements: 1.2, 4.1, 4.2, 5.4_
 
-- [ ] 4. Implement process model layer with commands and queries
-  - [ ] 4.1 Create command and event DTOs
+- [x] 4. Implement process model layer with commands and queries
+  - [x] 4.1 Create command and event DTOs
     - Define AwardPoints, RedeemPoints, and UpdateConfiguration commands
     - Create PointsAwarded, PointsRedeemed domain events
     - Add query DTOs for balance and transaction history
     - _Requirements: 1.1, 3.1, 4.1_
   
-  - [ ] 4.2 Implement command handlers for point operations
+  - [x] 4.2 Implement command handlers for point operations
     - Create AwardPointsHandler for processing payment events
     - Create RedeemPointsHandler for checkout point redemption
     - Create UpdateLoyaltyConfigurationHandler for admin operations
     - _Requirements: 1.1, 1.3, 3.2, 3.3, 4.1, 4.2_
   
-  - [ ] 4.3 Implement query handlers for data retrieval
+  - [x] 4.3 Implement query handlers for data retrieval
     - Create GetLoyaltyBalanceHandler with transaction history
     - Create GetLoyaltyReportsHandler for administrative analytics
     - Add pagination support for transaction history queries
