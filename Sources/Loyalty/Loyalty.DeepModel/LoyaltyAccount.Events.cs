@@ -1,4 +1,4 @@
-using P3Model.Annotations.Domain;
+using NoesisVision.Annotations.Domain;
 
 namespace MyCompany.ECommerce.Loyalty;
 

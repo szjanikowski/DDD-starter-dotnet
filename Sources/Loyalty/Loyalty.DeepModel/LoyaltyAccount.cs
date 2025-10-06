@@ -1,7 +1,7 @@
 using System.Collections.Immutable;
 using MyCompany.ECommerce.Sales.Clients;
 using MyCompany.ECommerce.TechnicalStuff;
-using P3Model.Annotations.Domain.DDD;
+using NoesisVision.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Loyalty;
 

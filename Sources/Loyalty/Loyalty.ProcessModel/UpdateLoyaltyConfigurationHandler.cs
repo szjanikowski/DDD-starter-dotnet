@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using MyCompany.ECommerce.TechnicalStuff.ProcessModel;
-using P3Model.Annotations.Domain;
-using P3Model.Annotations.People;
+using NoesisVision.Annotations.Domain;
+using NoesisVision.Annotations.People;
 
 namespace MyCompany.ECommerce.Loyalty;
 

@@ -1,6 +1,6 @@
 using System.Reflection;
-using P3Model.Annotations.Domain;
-using P3Model.Annotations.Technology.CleanArchitecture;
+using NoesisVision.Annotations.Domain;
+using NoesisVision.Annotations.Technology.CleanArchitecture;
 
 [assembly: UseCasesLayer]
 [assembly: DomainModel]

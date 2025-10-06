@@ -1,5 +1,5 @@
 using MyCompany.ECommerce.Sales.Clients;
-using P3Model.Annotations.Domain.DDD;
+using NoesisVision.Annotations.Domain.DDD;
 
 namespace MyCompany.ECommerce.Loyalty;
 
