@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <AssemblyName>MyCompany.ECommerce.Loyalty.ProcessModel</AssemblyName>
+        <RootNamespace>MyCompany.ECommerce.Loyalty</RootNamespace>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\TechnicalStuff\TechnicalStuff.ProcessModel\TechnicalStuff.ProcessModel.csproj" />
+      <ProjectReference Include="..\Loyalty.DeepModel\Loyalty.DeepModel.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="P3Model.Annotations" Version="0.4.0" />
+      <PackageReference Include="TaskTupleAwaiter" Version="2.1.0" />
+    </ItemGroup>
+
+</Project>

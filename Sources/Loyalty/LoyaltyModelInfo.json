@@ -1,0 +1,11 @@
+{
+  "name": "Loyalty",
+  "description": "Loyalty points management for customer rewards and retention",
+  "boundedContext": "Loyalty",
+  "layers": [
+    "DeepModel",
+    "ProcessModel", 
+    "Adapters",
+    "RestApi"
+  ]
+}
