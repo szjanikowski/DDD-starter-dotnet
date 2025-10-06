@@ -11,7 +11,7 @@
 
 ## Key Libraries & Frameworks
 
-- **P3Model.Annotations**: Domain modeling annotations for documentation
+- **NoesisVision.Annotations**: Domain modeling annotations for documentation
 - **Scrutor**: Assembly scanning and dependency injection
 - **Newtonsoft.Json**: JSON serialization
 - **System.Collections.Immutable**: Immutable collections for domain models
